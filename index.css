@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Be+Vietnam+Pro&family=Zen+Dots&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Baskervville", serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.logo {
+  font-family: "Zen Dots", cursive;
+  color: #F9673E;
+}
+
+p {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2.5rem;
+}
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 3.5rem;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+nav ul svg {
+  height: 56px;
+  width: 120px;
+  margin-left: -50%;
+}
+nav ul .dropdown {
+  position: relative;
+}
+nav ul .dropdown span {
+  font-size: 1.25rem;
+}
+nav ul .dropdown:hover .dropdown-content {
+  display: block;
+}
+nav ul .dropdown .dropdown-content {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 400%;
+}
+nav ul .dropdown .dropdown-content li {
+  margin-top: 1.5rem;
+}
+nav ul .dropdown .dropdown-content li a:hover {
+  color: #F9673E;
+}
+nav ul .dropdown .dropdown-content li:nth-child(1) {
+  margin-top: 2rem;
+}
+
+.active a {
+  color: #F9673E;
+}
+
+.mobile-nav {
+  display: none;
+  padding-block: 1.25rem;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .mobile-nav {
+    display: flex;
+  }
+}
+.mobile-nav .logo {
+  display: block;
+}
+.mobile-nav .menu {
+  float: right;
+}
+
+.sidebar {
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+.sidebar .close {
+  position: absolute;
+  right: 5%;
+  top: 2.5%;
+}
+.sidebar .main-menu {
+  list-style: none;
+  height: 100%;
+  /*display: flex;
+  flex-direction: column;
+  justify-content: center;*/
+}
+.sidebar .main-menu li {
+  margin-left: 2rem;
+  padding-block: 1.5rem;
+}
+.sidebar .main-menu li a, .sidebar .main-menu li span {
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.sidebar .main-menu li .active {
+  color: #F9673E;
+}
+.sidebar .main-menu li .dropdown .flexbox a {
+  margin-left: 4rem !important;
+  color: red !important;
+}
+.sidebar .main-menu li .dropdown-content {
+  display: block;
+  list-style: none;
+  opacity: 0.75;
+}
+.sidebar .main-menu li .dropdown-content li {
+  margin-top: 1.6rem;
+  padding-block: 0;
+}/*# sourceMappingURL=index.css.map */
