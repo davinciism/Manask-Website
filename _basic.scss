@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Be+Vietnam+Pro&family=Zen+Dots&display=swap');
 
 $primary: #F9673E;
+$secondary: #11332E;
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
 }
 
 html, body{
-    font-family: 'Baskervville', serif;
     font-size: 16px;
 }
 
@@ -31,7 +33,7 @@ $tablet-max: 1100px;
 }
 
 .container{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     @include mobile{
         width: 90%;
@@ -48,6 +50,8 @@ $tablet-max: 1100px;
 
 p{
     font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 100;
+    line-height: 170%;
 }
 
 nav{
@@ -62,6 +66,9 @@ nav{
         list-style: none;
         li{
             margin-right: 3.5rem;
+            @include tablet{
+                margin-right: 2rem;
+            }
             a{
                 color: black;
                 text-decoration: none;
@@ -89,6 +96,10 @@ nav{
                 flex-direction: column;
                 position: absolute;
                 width: 400%;
+                background-color: white;
+                padding: 2rem;
+                padding-top: 0rem;
+                margin-left: -2rem;
                 li{
                     margin-top: 1.5rem;
                     a:hover{
@@ -179,3 +190,10 @@ nav{
     //transition: 0.1s;
 }
 
+
+footer{
+    padding-block: 2rem;
+    font-size: 1.25rem;
+    color: $primary;
+    margin-top: 10rem;
+}
