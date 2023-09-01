@@ -192,125 +192,69 @@ footer p {
   color: #F9673E;
 }
 
-.hero {
-  display: flex;
-  height: 70vh;
-  justify-content: space-between;
-  margin-block: 2rem;
-}
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  .hero {
-    height: 50vh;
-  }
-}
 @media (max-width: 600px) {
-  .hero {
-    flex-direction: column-reverse;
-  }
-}
-.hero .img {
-  height: 100%;
-  width: 100%;
-  background: url(/assets/hero.jpg);
-  background-size: cover;
-  margin-right: 2rem;
-}
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  .hero .img {
-    background-position: 50% 0%;
-  }
-}
-.hero h1 {
-  font-size: 4rem;
-  color: #F9673E;
-  margin-top: 2rem;
-}
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  .hero h1 {
-    font-size: 3rem;
-  }
-}
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2.75rem;
-    margin-bottom: 1rem;
-  }
-}
-
-.info {
-  margin-block: 2rem;
-  margin-top: 8rem;
-  margin-bottom: 6rem;
-}
-.info h2 {
-  font-size: 2.8rem;
-  margin-bottom: 6rem;
-}
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  .info h2 {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 600px) {
-  .info h2 {
-    font-size: 2rem;
-    margin-bottom: 4rem;
-  }
-  .info h2 br {
+  section {
     display: none;
   }
 }
-.info h2 .primary {
-  color: #F9673E;
-}
-.info h2 .italic {
-  font-style: italic;
-}
-.info .text-blocks {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.25rem;
-  color: #11332E;
-}
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  .info .text-blocks {
-    font-size: 1.25rem;
-  }
-}
-@media (max-width: 600px) {
-  .info .text-blocks {
-    flex-direction: column;
-  }
-}
-.info .text-blocks a {
-  font-size: 1.25rem;
-  text-decoration: underline;
-  color: #11332E;
-  font-family: "Be Vietnam Pro", sans-serif;
-  font-weight: 100;
-  line-height: 170%;
-}
-.info p {
+section .parent {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8rem;
 }
-.info p:nth-child(1) {
-  padding-right: 4rem;
+section .parent .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-@media screen and (min-width: 600px) and (max-width: 1100px) {
-  .info p:nth-child(1) {
-    padding-right: 2rem;
-  }
+section .parent .content h3 {
+  color: #F9673E;
+  font-size: 2rem;
+  padding-bottom: 1.25rem;
+}
+section .parent .content p {
+  font-size: 1.25rem;
+  width: 75%;
+  padding-right: 1.25rem;
+  text-align: justify;
+}
+section .parent img {
+  width: 45%;
+}
+section .heal img {
+  width: 30%;
+  margin-right: 8rem;
+}
+section .attunement img {
+  width: 45%;
+}
+section .supervision img {
+  width: 35%;
+  margin-right: 8rem;
+}
+section .diversity img {
+  width: 45%;
+}
+section .ethical img {
+  margin-right: 8rem;
+}
+section .professionalism img {
+  width: 45%;
+}
+
+.mobile {
+  display: none;
 }
 @media (max-width: 600px) {
-  .info p:nth-child(1) {
-    padding-right: 0;
+  .mobile {
+    display: block;
   }
 }
-.info p:nth-child(2) {
-  padding-left: 4rem;
+.mobile .parent img {
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
-@media (max-width: 600px) {
-  .info p:nth-child(2) {
-    padding-left: 0;
-  }
-}/*# sourceMappingURL=index.css.map */
+.mobile .parent p {
+  width: 100% !important;
+}/*# sourceMappingURL=philosophy.css.map */
