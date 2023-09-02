@@ -76,6 +76,9 @@ nav ul .dropdown {
 nav ul .dropdown span {
   font-size: 1.25rem;
 }
+nav ul .dropdown span:hover {
+  cursor: pointer;
+}
 nav ul .dropdown:hover .dropdown-content {
   display: block;
 }

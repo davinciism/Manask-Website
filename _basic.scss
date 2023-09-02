@@ -80,14 +80,15 @@ nav{
             height: 56px;
             width: 120px;
             margin-left: -50%;
-            path{
-                
-            }
+
         }
         .dropdown{
             position: relative;
             span{
                 font-size: 1.25rem;
+                &:hover{
+                    cursor: pointer;
+                }
             }
             &:hover .dropdown-content{
                 display: block;

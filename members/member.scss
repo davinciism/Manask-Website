@@ -1,0 +1,65 @@
+@import '../_basic';
+
+nav{
+    span{
+        color: $primary;
+        font-family: 'Baskervville', serif !important   ;
+        font-weight: 400;
+    }
+}
+
+section{
+    display: flex;
+    padding-bottom: 8rem;
+    @include mobile{
+        flex-direction: column;
+    }
+}
+img{
+    height: 50vh;
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    @include tablet{
+        margin-right: 4rem;
+    }
+    @include mobile{
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+    }
+}
+
+.email, .whatsapp{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    svg{
+        margin-right: 1rem;
+    }  
+}
+.whatsapp{
+    margin-bottom: 0;
+    
+}
+
+.id, .number, span{
+    font-family: 'Be Vietnam Pro', sans-serif !important;
+    color: $secondary;
+    @include mobile{
+        font-size: 1.25rem;
+    }
+}
+
+.alert{
+    margin-left: 3rem;
+    opacity: 0.5;
+    @include mobile{
+        padding-bottom: 2rem;
+    }
+}
+p{
+    @include mobile{
+        margin-top: 2rem;
+        font-size: 1.125rem;
+    }
+}
