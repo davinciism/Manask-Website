@@ -1,0 +1,35 @@
+@import '_basic';
+
+section{
+    @include mobile{
+        padding-top: 4rem;
+    }
+}
+.faq{
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            font-size: 2rem;
+            font-weight: 100;
+            color: $secondary;
+            margin-bottom: 1.5rem;
+        }
+    }
+    .answer{
+        width: 85%;
+        p{
+            font-size: 1.25rem;
+            width: 100% !important;
+            opacity: 0.75;
+            
+        }
+    }
+    .line{
+        height: 1.5px;
+        width: 100%;
+        background-color: $primary;
+        margin-block: 4rem;
+    }
+}
