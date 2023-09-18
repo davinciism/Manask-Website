@@ -73,6 +73,7 @@ img{
     }
 }
 p{
+    text-align: justify;
     @include mobile{
         margin-top: 2rem;
         font-size: 1.125rem;

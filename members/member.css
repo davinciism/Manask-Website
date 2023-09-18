@@ -283,6 +283,9 @@ img {
   }
 }
 
+p {
+  text-align: justify;
+}
 @media (max-width: 600px) {
   p {
     margin-top: 2rem;

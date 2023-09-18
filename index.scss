@@ -28,10 +28,12 @@
         transform: translateY(25%);
         @include tablet{
             font-size: 3rem;
+            transform: translateY(0);
         }
         @include mobile{
             font-size: 2.75rem;
             margin-bottom: 1rem;
+            transform: translateY(0);
         }
     }
 }
