@@ -29,6 +29,21 @@ img{
     }
 }
 
+.pc-info{
+    flex-direction: column;
+    @include mobile{
+        display: none;
+    }
+
+}
+.mob-info{
+    flex-direction: column;
+    margin-top: 2rem;
+    display: none;
+    @include mobile{
+        display: block;
+    }
+}
 .email, .whatsapp{
     display: flex;
     margin-bottom: 1rem;

@@ -44,8 +44,10 @@ $tablet-max: 1100px;
 }
 
 .logo{
-    font-family: 'Zen Dots', cursive;
+    //font-family: 'Zen Dots', cursive;
+    font-family: 'Baskervville', serif;
     color: $primary;
+    font-size: 1.8rem;
 }
 
 p{
@@ -195,7 +197,7 @@ nav{
 header{
     height: 40vh;
     color: $primary;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-block: 6rem;
     @include mobile{
         font-size: 1.5rem;

@@ -27,8 +27,9 @@ html, body {
 }
 
 .logo {
-  font-family: "Zen Dots", cursive;
+  font-family: "Baskervville", serif;
   color: #F9673E;
+  font-size: 1.8rem;
 }
 
 p {
@@ -172,7 +173,7 @@ nav ul .dropdown .dropdown-content li:nth-child(1) {
 header {
   height: 40vh;
   color: #F9673E;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-block: 6rem;
 }
 @media (max-width: 600px) {

@@ -27,8 +27,9 @@ html, body {
 }
 
 .logo {
-  font-family: "Zen Dots", cursive;
+  font-family: "Baskervville", serif;
   color: #F9673E;
+  font-size: 1.8rem;
 }
 
 p {
@@ -172,7 +173,7 @@ nav ul .dropdown .dropdown-content li:nth-child(1) {
 header {
   height: 40vh;
   color: #F9673E;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-block: 6rem;
 }
 @media (max-width: 600px) {
@@ -260,4 +261,22 @@ section .professionalism img {
 }
 .mobile .parent p {
   width: 100% !important;
+}
+
+.credit {
+  margin-top: 2rem !important;
+}
+.credit p {
+  color: #11332E;
+  margin-top: -2rem;
+  margin-bottom: 0;
+}
+.credit p span {
+  color: #F9673E;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+footer {
+  padding-block-start: 0;
+  margin-top: 0rem !important;
 }/*# sourceMappingURL=philosophy.css.map */

@@ -27,8 +27,9 @@ html, body {
 }
 
 .logo {
-  font-family: "Zen Dots", cursive;
+  font-family: "Baskervville", serif;
   color: #F9673E;
+  font-size: 1.8rem;
 }
 
 p {
@@ -172,7 +173,7 @@ nav ul .dropdown .dropdown-content li:nth-child(1) {
 header {
   height: 40vh;
   color: #F9673E;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-block: 6rem;
 }
 @media (max-width: 600px) {
@@ -226,7 +227,7 @@ footer p {
 .hero h1 {
   font-size: 4rem;
   color: #F9673E;
-  margin-top: 2rem;
+  transform: translateY(25%);
 }
 @media screen and (min-width: 600px) and (max-width: 1100px) {
   .hero h1 {
