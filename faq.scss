@@ -23,8 +23,15 @@ section{
             font-size: 1.25rem;
             width: 100% !important;
             opacity: 0.75;
+            a{
+                font-family: 'Be Vietnam Pro', sans-serif;
+                font-weight: 100;
+                line-height: 170%;
+                color: $primary;
+            }
             
         }
+        
     }
     .line{
         height: 1.5px;

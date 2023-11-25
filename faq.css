@@ -245,6 +245,12 @@ footer p {
   width: 100% !important;
   opacity: 0.75;
 }
+.faq .answer p a {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  line-height: 170%;
+  color: #F9673E;
+}
 .faq .line {
   height: 1.5px;
   width: 100%;
