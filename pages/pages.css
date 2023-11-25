@@ -220,87 +220,32 @@ footer p {
   color: #F9673E;
 }
 
+nav span {
+  font-family: "Baskervville", serif !important;
+  font-weight: 400;
+}
+
+.active {
+  color: #F9673E;
+}
+
+header {
+  height: auto;
+  padding-block: 3rem;
+}
 @media (max-width: 600px) {
-  section {
-    display: none;
+  header h1 {
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0rem;
   }
 }
-section .parent {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8rem;
-}
-section .parent .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-section .parent .content h3 {
-  color: #F9673E;
-  font-size: 2rem;
-  padding-bottom: 1.25rem;
-}
-section .parent .content p {
-  font-size: 1.25rem;
-  width: 75%;
-  padding-right: 1.25rem;
+
+section .right p {
   text-align: justify;
 }
-section .parent img {
-  width: 45%;
-}
-section .heal img {
-  width: 30%;
-  margin-right: 8rem;
-}
-section .attunement img {
-  width: 45%;
-}
-section .supervision img {
-  width: 35%;
-  margin-right: 8rem;
-}
-section .diversity img {
-  width: 45%;
-}
-section .ethical img {
-  margin-right: 8rem;
-}
-section .professionalism img {
-  width: 45%;
-}
-
-.mobile {
-  display: none;
-}
 @media (max-width: 600px) {
-  .mobile {
-    display: block;
+  section .right p {
+    font-size: 1.125rem;
   }
-}
-.mobile .parent img {
-  width: 100%;
-  margin-bottom: 1.5rem;
-}
-.mobile .parent p {
-  width: 100% !important;
-}
-
-.credit {
-  margin-top: 2rem !important;
-}
-.credit p {
-  color: #11332E;
-  margin-top: -2rem;
-  margin-bottom: 0;
-}
-.credit p span {
-  color: #F9673E;
-  font-family: "Be Vietnam Pro", sans-serif;
-}
-
-footer {
-  padding-block-start: 0;
-  margin-top: 0rem !important;
-}/*# sourceMappingURL=philosophy.css.map */
+}/*# sourceMappingURL=pages.css.map */

@@ -1,0 +1,38 @@
+@import '../_basic';
+
+nav{
+    span{
+        //color: $primary;
+        font-family: 'Baskervville', serif !important   ;
+        font-weight: 400;
+    }
+}
+.active{
+    color: $primary;
+
+}
+
+header{
+    height: auto;
+    padding-block: 3rem;
+    @include mobile{
+        h1{
+            height: auto;
+            margin-top: 0;
+            margin-bottom: 0rem;
+        }
+    }
+}
+
+
+section{
+    .right{
+        p{
+            text-align: justify;
+            @include mobile{
+                //margin-top: 1rem;
+                font-size: 1.125rem;
+            }
+        }
+    }
+}
